@@ -944,7 +944,7 @@
 	/*图片*/
 	.ly-imgbox11{
 		position: absolute;
-		top: 15%;
+		bottom: 10%;
 		width: 100%;
 		height: 100%;
 		border-radius: 8px;
@@ -959,7 +959,7 @@
 	.ly-img11{
 		position: absolute;
 		width: 100%;
-		top: 15%;
+		bottom: 10%;
 	}
 
 	/*文本*/
@@ -1091,9 +1091,10 @@
 	/*图片*/
 	.ly-imgbox11{
 		position: absolute;
-		bottom: 0;
-		width: 100%;
-		height: 70%;
+		top: 50;
+		width: 90%;
+		height: 75%;
+		left: 5%;
 		border-radius: 8px;
 		opacity:0;
 		overflow: hidden;
@@ -1262,7 +1263,7 @@
 	/* 盒子 */
 	.ly-box21 {
 		width: 20%;
-		height: 600px;
+		height: 550px;
 		border: 2px #CCC;
 		background-color: #fff;
 		background-color: rgba(255,255,255,0.6);
@@ -1309,7 +1310,7 @@
 	/*图片*/
 	.ly-imgbox21{
 		position: absolute;
-		top: 50;
+		bottom: 5%;
 		width: 100%;
 		height: 80%;
 		border-radius: 8px;
@@ -1330,7 +1331,7 @@
 	/* 盒子 */
 	.ly-box22 {
 		width: 20%;
-		height: 510px;
+		height: 570px;
 		border: 2px #CCC;
 		background-color: #fff;
 		background-color: rgba(255,255,255,0.6);
@@ -1360,7 +1361,7 @@
 		border-radius: 2px; 
 		margin-left: 24px;
 		position: absolute;
-		left: 43.15%;
+		left: 43.75%;
 		top: 25%;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
@@ -1378,9 +1379,9 @@
 	/*图片*/
 	.ly-imgbox22{
 		position: absolute;
-		top: 50%;
+		top: 25%;
 		width: 100%;
-		height: 50%;
+		height: 73.5%;
 		border-radius: 8px;
 		opacity:0;
 		overflow: hidden;
@@ -1398,7 +1399,7 @@
 	
 	/* 盒子 */
 	.ly-box23 {
-		width: 30%;
+		width: 25%;
 		height: 0;
 		border: 2px #CCC;
 		background-color: #fff;
@@ -1412,7 +1413,7 @@
 		transition: all 10s;
 	}
 	.active .ly-box23{
-		height:600px;
+		height:700px;
 		transition-delay: 8s;
 	}
 	/*小三角*/
@@ -1425,7 +1426,7 @@
 		border-radius: 2px; 
 		margin-left: 24px;
 		position: absolute;
-		left: 66.15%;
+		left: 66.75%;
 		top: 36%;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
@@ -1442,7 +1443,7 @@
 	/*图片*/
 	.ly-imgbox23{
 		position: absolute;
-		bottom: 0;
+		top: 15%;
 		width: 100%;
 		height: 80%;
 		border-radius: 8px;
@@ -1601,21 +1602,21 @@
 	
 	/* 盒子 */
 	.ly-box23 {
-		width: 60%;
-		height: 0;
+		width: 50%;
+		height: 0%;
 		border: 2px #CCC;
 		background-color: #fff;
 		background-color: rgba(255,255,255,0.6);
 		border-radius: 8px;
 		position: absolute;
 		left: 23%;
-		bottom: 4%;
+		bottom: 0%;
 		overflow: hidden;
 		opacity: 0.9;
 		transition: all 10s;
 	}
 	.active .ly-box23{
-		height: 45%;
+		height: 750;
 		transition-delay: 8s;
 	}
 	/*小三角*/
@@ -1628,7 +1629,7 @@
 		border-radius: 2px; 
 		margin-left: 24px;
 		position: absolute;
-		right: 77%;
+		right: 80%;
 		top: 36%;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
@@ -1768,7 +1769,7 @@
 	font-color: #000;
 	position: absolute;
 	width:80%;
-	top: 10%;
+	top: 5%;
 	margin-left:5%;
 	opacity: 0;
 	transition: all 0.5s;
