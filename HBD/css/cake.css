@@ -21,8 +21,7 @@ html, body {
 
 }
 
-/* ============================================== Candle
-*/
+
 .bg {
     width: 100%;
     height: 100%;
@@ -68,8 +67,7 @@ html, body {
     left: 0;
 }
 
-/* ============================================== Fire
-*/
+
 .fuego {
     border-radius: 100%;
     position: absolute;
@@ -105,8 +103,7 @@ html, body {
     animation: fuego 0.2s 6.5s infinite;
 }
 
-/* ============================================== Animation Fire
-*/
+
 @-webkit-keyframes fuego {
     0%, 100% {
         background: rgba(254, 248, 97, 0.5);
@@ -358,7 +355,6 @@ html, body {
 }
 
 .button-style1, .button-style2 {
-    font-weight: bold;
     position: absolute;
     top: 40%;
     opacity: 1;
@@ -366,7 +362,6 @@ html, body {
 }
 
 .button-style1 {
-    font-weight: bold;
 	position:absolute;
 	top:50%;
     left: 50%;
@@ -374,9 +369,8 @@ html, body {
     opacity:0;
 }
 .button-style2 {
-    font-weight: bold;
 	position:absolute;
-    top: 1px;;
+    top:60%;
     margin-left:-87px;
     left: 50%;
     opacity:0;
@@ -388,13 +382,11 @@ html, body {
     text-align: center;
     overflow: hidden;
     width: 100%;
-    top: 1;
+    top: -100px;
     opacity: 0;
     font-size: 32px;
     color: #fff;
-
 }
-
 @keyframes btn1 {
     0% {
         opacity: 0;
