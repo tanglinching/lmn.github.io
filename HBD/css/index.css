@@ -11,23 +11,27 @@ body {
   font-weight: 300;
 }
 body ::-webkit-input-placeholder {
+  /* WebKit browsers */
   font-family:"Microsoft YaHei";
   color: white;
   font-weight: 300;
 }
 body :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
   font-family:"Microsoft YaHei";
   color: white;
   opacity: 1;
   font-weight: 300;
 }
 body ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
   font-family:"Microsoft YaHei";
   color: white;
   opacity: 1;
   font-weight: 300;
 }
 body :-ms-input-placeholder {
+  /* Internet Explorer 10+ */
   font-family:"Microsoft YaHei";
   color: white;
   font-weight: 300;
@@ -136,8 +140,8 @@ form button:hover {
   height: 40px;
   background-color: rgba(255, 255, 255, 0.15);
   bottom: -160px;
-  -webkit-animation: square 30s infinite;
-  animation: square 30s infinite;
+  -webkit-animation: square 10s infinite;
+  animation: square 10s infinite;
   -webkit-transition-timing-function: linear;
   transition-timing-function: linear;
 }
